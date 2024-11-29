@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Playwright Introduction</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e9ecef;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #2EAF48;
+      margin: 0;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .feature-card {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 6px;
+      border-left: 4px solid #2EAF48;
+    }
+
+    .feature-card h3 {
+      margin: 0 0 8px 0;
+      color: #2EAF48;
+      font-size: 16px;
+    }
+
+    .feature-card p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .learn-more {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 16px;
+      background-color: #2EAF48;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .learn-more:hover {
+      background-color: #249A3E;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="images/icon48.png" alt="Playwright Logo" class="logo">
+      <h1>Playwright</h1>
+    </div>
+
+    <p>Playwright is a powerful automation testing tool that supports Chromium, Firefox, and WebKit.</p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>Cross-browser Support</h3>
+        <p>Works with all modern browsers including Chromium, Firefox, and WebKit</p>
+      </div>
+      <div class="feature-card">
+        <h3>Auto-waiting</h3>
+        <p>Smart waiting for elements to be ready, no explicit waits needed</p>
+      </div>
+      <div class="feature-card">
+        <h3>Powerful Selectors</h3>
+        <p>Supports various selectors including text, CSS, and XPath</p>
+      </div>
+      <div class="feature-card">
+        <h3>Mobile Testing</h3>
+        <p>Supports mobile device emulation and geolocation</p>
+      </div>
+    </div>
+
+    <a href="https://playwright.dev" target="_blank" class="learn-more">Learn More</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

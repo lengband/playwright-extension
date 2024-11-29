@@ -1,0 +1,16 @@
+{
+  "name": "playwright-extension-test",
+  "version": "1.0.0",
+  "description": "Testing Chrome extension with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "show-report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+} 
